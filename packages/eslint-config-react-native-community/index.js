@@ -69,6 +69,7 @@ module.exports = {
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': 1,
         'no-undef': 'off',
+        'dot-notation': 'off', // should be off to allow accessors to check type data.
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': 1,
       },
